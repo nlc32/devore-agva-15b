@@ -9,12 +9,13 @@ body {
   max-width:930px;
     display:flex;
   justify-content:space-between;
+  text-decoration:none;
 }
 .menu-item {
   flex: 1;
   text-align:center;
   color:black;
-  background-color:black;
+  background-color:brown;
   box-sizing: border-box;
   line-height:1.65;
   padding: 1em 0em;
@@ -23,6 +24,7 @@ body {
   text-decoration: none;
   color:white;
   transition:transform 1s;
+  border-radius:25px;
 }
 .menu-item:hover {
   background-color:grey;
@@ -57,10 +59,18 @@ h2,h3{
   order: 3;
   flex: 1;
   }
+.special-offer {
+  background-color:brown;
+  margin:40px auto 0 auto;
+  padding:20px;
+  border-radius:20px;
+}
+
 img {
   height:250px;
   width:250px;
 }
+
 
 
 
