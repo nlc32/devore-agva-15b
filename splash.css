@@ -70,3 +70,6 @@ body {
 .btn:hover {
   transform: rotateX(180deg);
 }
+img {
+  height:40px;
+  width:40px;}
