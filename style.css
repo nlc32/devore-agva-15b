@@ -20,8 +20,14 @@ body {
   padding: 1em 0em;
   margin: 1em;
   flex-basis:30%;
-  text-decoration:none;
+  text-decoration: none;
   color:white;
+  transition:transform 1s;
+}
+.menu-item:hover {
+  background-color:grey;
+  transform:scaleX(1.15);
+    
 }
 h2,h3{
  margin:0 0 .7em 0;
