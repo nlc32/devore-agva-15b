@@ -1,4 +1,8 @@
-
+form {
+  text-align:center;
+  margin:20px;
+  line-height:2.5;
+}
 body {
   font-family: Verdana, sans-serif;
  background-color:tan;
