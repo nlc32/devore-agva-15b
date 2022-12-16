@@ -61,11 +61,18 @@ h2,h3{
   }
 .special-offer {
   background-color:brown;
-  margin:40px auto 0 auto;
-  padding:20px;
+  margin: auto;
+  padding:100px;
   border-radius:20px;
 }
-
+.spec-offer-box {
+  Margin: 0px auto;
+  width: 100%;
+  max-width:930px;
+    display:flex;
+  justify-content:space-between;
+  text-decoration:none;
+}
 img {
   height:250px;
   width:250px;
