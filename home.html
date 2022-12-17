@@ -24,6 +24,7 @@
            Our mission is to bring the magic of baking into your life,
       and hopefully brighten our customer's day with a little sugar.
         </p>
+        <button onclick="myFunction()">Remove Ads</button>
       </div>
       <div class="sidebar-two">
         <img   id="logo"
@@ -35,7 +36,7 @@
         </ul>
       </div>
     </div>
- <button onclick="myFunction()"></button>
+
 
 <div id="myDIV">
 
@@ -62,8 +63,18 @@
       <button>
         Learn More
       </button>
+    </div> 
+  </div>
     </div>
-    </div>
-    </div>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
   </body>
 </html>
